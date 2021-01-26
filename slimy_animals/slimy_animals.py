@@ -1,0 +1,44 @@
+class Iguana:
+    
+    def __init__(self, id, name, date_added, species ="iguana"):
+        self.id = id
+        self.name = name
+        self.species = species
+        self.date_added = date_added
+        self.slithering = True
+
+class Bullfrog:
+    
+    def __init__(self, id, name, date_added, species ="bullfrog"):
+        self.id = id
+        self.name = name
+        self.species = species
+        self.date_added = date_added
+        self.slithering = True
+
+class Python:
+    
+    def __init__(self, id, name, date_added, species ="python"):
+        self.id = id
+        self.name = name
+        self.species = species
+        self.date_added = date_added
+        self.slithering = True
+
+class Gardner:
+    
+    def __init__(self, id, name, date_added, species ="gardner"):
+        self.id = id
+        self.name = name
+        self.species = species
+        self.date_added = date_added
+        self.slithering = True
+
+class Komodo:
+    
+    def __init__(self, id, name, date_added, species ="Komodo"):
+        self.id = id
+        self.name = name
+        self.species = species
+        self.date_added = date_added
+        self.slithering = True
