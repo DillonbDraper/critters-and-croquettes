@@ -7,6 +7,9 @@ class Llama:
         self.date_added = date_added
         self.walking = True
 
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
+
 class Horse:
     
     def __init__(self, id, name, date_added, species ="horse"):
@@ -43,6 +46,9 @@ class Ferret:
         self.date_added = date_added
         self.walking = True
 
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
+
 class Iguana:
     
     def __init__(self, id, name, date_added, species ="iguana"):
@@ -52,6 +58,9 @@ class Iguana:
         self.date_added = date_added
         self.slithering = True
 
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
+
 class Bullfrog:
     
     def __init__(self, id, name, date_added, species ="bullfrog"):
@@ -60,6 +69,9 @@ class Bullfrog:
         self.species = species
         self.date_added = date_added
         self.slithering = True
+    
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
 
 class Python:
     
@@ -70,6 +82,9 @@ class Python:
         self.date_added = date_added
         self.slithering = True
 
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
+
 class Gardner:
     
     def __init__(self, id, name, date_added, species ="gardner"):
@@ -78,6 +93,9 @@ class Gardner:
         self.species = species
         self.date_added = date_added
         self.slithering = True
+
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
 
 class Komodo:
     
@@ -88,6 +106,9 @@ class Komodo:
         self.date_added = date_added
         self.slithering = True
 
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
+
 class Clownfish:
     
     def __init__(self, id, name, date_added, species ="clownfish"):
@@ -96,6 +117,9 @@ class Clownfish:
         self.species = species
         self.date_added = date_added
         self.swimming = True
+
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
 
 class Salmon:
     
@@ -106,6 +130,9 @@ class Salmon:
         self.date_added = date_added
         self.swimming = True
 
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
+
 class Barracuda:
     
     def __init__(self, id, name, date_added, species ="barracuda"):
@@ -114,6 +141,9 @@ class Barracuda:
         self.species = species
         self.date_added = date_added
         self.swimming = True
+
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
 
 class Orca:
     
@@ -124,6 +154,9 @@ class Orca:
         self.date_added = date_added
         self.swimming = True
 
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
+
 class Beluga:
     
     def __init__(self, id, name, date_added, species ="beluga"):
@@ -132,6 +165,9 @@ class Beluga:
         self.species = species
         self.date_added = date_added
         self.swimming = True
+
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
 
 
 

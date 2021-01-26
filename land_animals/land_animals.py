@@ -7,8 +7,9 @@ class Llama:
         self.date_added = date_added
         self.walking = True
         self.shift = shift
-        self.shift = shift
 
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
 
 class Horse:
     
@@ -20,6 +21,8 @@ class Horse:
         self.walking = True
         self.shift = shift
 
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
 
 class Goat:
     
@@ -31,6 +34,8 @@ class Goat:
         self.walking = True
         self.shift = shift
 
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
 
 class Pony:
     
@@ -42,6 +47,8 @@ class Pony:
         self.walking = True
         self.shift = shift
 
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
 
 class Ferret:
     
@@ -52,3 +59,6 @@ class Ferret:
         self.date_added = date_added
         self.walking = True
         self.shift = shift
+
+    def __str__(self):
+        return f"{self.name} is a {self.species}"

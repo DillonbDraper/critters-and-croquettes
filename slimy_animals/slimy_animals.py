@@ -7,6 +7,9 @@ class Iguana:
         self.date_added = date_added
         self.slithering = True
 
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
+
 class Bullfrog:
     
     def __init__(self, id, name, date_added, species ="bullfrog"):
@@ -15,6 +18,9 @@ class Bullfrog:
         self.species = species
         self.date_added = date_added
         self.slithering = True
+    
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
 
 class Python:
     
@@ -25,6 +31,9 @@ class Python:
         self.date_added = date_added
         self.slithering = True
 
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
+
 class Gardner:
     
     def __init__(self, id, name, date_added, species ="gardner"):
@@ -34,6 +43,9 @@ class Gardner:
         self.date_added = date_added
         self.slithering = True
 
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
+
 class Komodo:
     
     def __init__(self, id, name, date_added, species ="Komodo"):
@@ -42,3 +54,6 @@ class Komodo:
         self.species = species
         self.date_added = date_added
         self.slithering = True
+
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
